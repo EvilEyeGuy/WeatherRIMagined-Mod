@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LivingFire_ModName>Weather Reimagined</LivingFire_ModName>
+  <LivingFire_Style>Flame style</LivingFire_Style>
+  <LivingFire_StyleRealistic>Realistic</LivingFire_StyleRealistic>
+  <LivingFire_StyleRealisticTip>Soft, flickering flames with glowing color gradients.</LivingFire_StyleRealisticTip>
+  <LivingFire_StyleSimple>Simple</LivingFire_StyleSimple>
+  <LivingFire_StyleSimpleTip>Flat two-tone flames with clean outlines, close to the vanilla art style.</LivingFire_StyleSimpleTip>
+</LanguageData>

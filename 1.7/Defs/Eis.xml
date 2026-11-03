@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TerrainDef ParentName="Ice">
+    <defName>WR_Ice</defName>
+    <label>ice</label>
+    <description>A frozen layer over shallow water. It thaws when it gets warmer.</description>
+    <texturePath>Terrain/WR_Ice</texturePath>
+    <pollutedTexturePath>Terrain/WR_Ice</pollutedTexturePath>
+    <temporary>true</temporary>
+    <tempTerrain>
+      <removedByExplosions>true</removedByExplosions>
+      <replaceableByBridge>true</replaceableByBridge>
+    </tempTerrain>
+    <affordances Inherit="false">
+      <li>Walkable</li>
+      <li>Bridgeable</li>
+      <li>ShallowWater</li>
+    </affordances>
+  </TerrainDef>
+
+  <TerrainDef ParentName="Ice">
+    <defName>WR_IceDeep</defName>
+    <label>ice</label>
+    <description>A frozen layer over deep water. It thaws when it gets warmer.</description>
+    <texturePath>Terrain/WR_IceDeep</texturePath>
+    <pollutedTexturePath>Terrain/WR_IceDeep</pollutedTexturePath>
+    <temporary>true</temporary>
+    <tempTerrain>
+      <removedByExplosions>true</removedByExplosions>
+      <replaceableByBridge>true</replaceableByBridge>
+    </tempTerrain>
+    <affordances Inherit="false">
+      <li>Walkable</li>
+      <li>Bridgeable</li>
+    </affordances>
+  </TerrainDef>
+
+  <DesignationDef>
+    <defName>WR_BreakIce</defName>
+    <texturePath>Designations/RemoveFloor</texturePath>
+    <targetType>Cell</targetType>
+  </DesignationDef>
+
+  <JobDef>
+    <defName>WR_BreakIce</defName>
+    <driverClass>LivingWeather.JobDriver_EisBrechen</driverClass>
+    <reportString>breaking ice.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    <displayAsAreaInFloatMenu>false</displayAsAreaInFloatMenu>
+  </JobDef>
+
+  <WorkGiverDef>
+    <defName>WR_BreakIce</defName>
+    <label>break ice</label>
+    <giverClass>LivingWeather.WorkGiver_EisBrechen</giverClass>
+    <workType>Construction</workType>
+    <priorityInType>40</priorityInType>
+    <verb>break ice</verb>
+    <gerund>breaking ice at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+</Defs>

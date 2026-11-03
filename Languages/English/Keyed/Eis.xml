@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WR_BreakIce>Break ice</WR_BreakIce>
+  <WR_BreakIceDesc>Designate ice to be broken up, opening the water beneath it again.</WR_BreakIceDesc>
+  <WR_BreakIceNeedsIce>Must be designated on ice.</WR_BreakIceNeedsIce>
+</LanguageData>

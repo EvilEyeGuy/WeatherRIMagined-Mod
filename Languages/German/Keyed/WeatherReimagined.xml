@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WR_TabGeneral>Allgemein</WR_TabGeneral>
+  <WR_TabFire>Feuer</WR_TabFire>
+  <WR_TabSnow>Schnee</WR_TabSnow>
+  <WR_TabWeather>Wetter</WR_TabWeather>
+  <WR_Low>Niedrig</WR_Low>
+  <WR_Medium>Mittel</WR_Medium>
+  <WR_High>Hoch</WR_High>
+  <WR_Quality>Qualität</WR_Quality>
+  <WR_SnowQuality>Schneequalität</WR_SnowQuality>
+  <WR_SnowQualityDesc>Schärfe von Schnee und Traufen. Hoch braucht viermal so viel Grafikspeicher.</WR_SnowQualityDesc>
+  <WR_SnowLowLater>Für Schnee gibt es Niedrig noch nicht.</WR_SnowLowLater>
+  <WR_FlameQuality>Flammenqualität</WR_FlameQuality>
+  <WR_FlameQualityDesc>Niedrig: eine einfache Flamme, an die Größe des Objekts angepasst. Mittel: eigene Flammenform für Bäume und Mauern. Hoch: eigene Flammenform für alles, braucht am meisten Speicher. Kamine und Fackeln sind nicht betroffen.</WR_FlameQualityDesc>
+  <WR_Animation>Feuer-Animation</WR_Animation>
+  <WR_AnimationDesc>Bilder pro Flamme: 8, 12 oder 16. Weniger Bilder flackern gröber und brauchen weniger Speicher.</WR_AnimationDesc>
+  <WR_Workers>Rechenleistung</WR_Workers>
+  <WR_WorkersDesc>Hintergrund-Threads für Schnee und Traufen. Auf diesem PC: {0}, {1} oder {2}. Mehr Threads machen den Schnee schneller fertig.</WR_WorkersDesc>
+  <WR_ChangeRebuilds>Ein Wechsel berechnet Schnee und Flammen neu. Das kann ein paar Sekunden dauern.</WR_ChangeRebuilds>
+  <WR_Cache>Zwischenspeicher</WR_Cache>
+  <WR_CacheDesc>Fertig berechnete Texturen liegen auf der Festplatte und laden beim nächsten Start schneller.</WR_CacheDesc>
+  <WR_CacheSize>Cache: {0} MB</WR_CacheSize>
+  <WR_CacheClear>Cache löschen</WR_CacheClear>
+  <WR_PreviewDesc>Die Vorschau zeigt echte Flammen aus dem Spiel. Ein Klick auf ein Bild wählt den Stil.</WR_PreviewDesc>
+  <WR_FlamesWhere>Wo Flammen neu gezeichnet werden</WR_FlamesWhere>
+  <WR_BurningPawns>Brennende Figuren</WR_BurningPawns>
+  <WR_Torches>Fackeln, Öfen und Kamine</WR_Torches>
+  <WR_FlamesOffDesc>Aus heißt: Diese Flammen sehen wieder aus wie in Vanilla. Brände am Boden, an Bäumen und an Gebäuden bleiben neu.</WR_FlamesOffDesc>
+  <WR_SnowOn>Schnee liegt auf</WR_SnowOn>
+  <WR_SnowTrees>Bäumen</WR_SnowTrees>
+  <WR_SnowBushes>Büschen und Blumen</WR_SnowBushes>
+  <WR_SnowBuildings>Möbeln und Gebäuden</WR_SnowBuildings>
+  <WR_SnowItems>Gegenständen am Boden</WR_SnowItems>
+  <WR_SnowEaves>Traufen an Dachkanten</WR_SnowEaves>
+  <WR_SnowWalls>Bodenschnee bis an Mauern</WR_SnowWalls>
+  <WR_SnowOffDesc>Aus heißt: Dort sieht Schnee wieder aus wie in Vanilla. Wie viel Schnee fällt und liegt, ändert sich nie.</WR_SnowOffDesc>
+  <WR_Weathers>Neu gezeichnete Wetter</WR_Weathers>
+  <WR_GroupRain>Regen</WR_GroupRain>
+  <WR_GroupSnow>Schnee</WR_GroupSnow>
+  <WR_GroupFog>Nebel und Schleier</WR_GroupFog>
+  <WR_GroupStorm>Gewitter</WR_GroupStorm>
+  <WR_Rain>Regen</WR_Rain>
+  <WR_TorrentialRain>Sturzregen</WR_TorrentialRain>
+  <WR_BloodRain>Blutregen</WR_BloodRain>
+  <WR_ToxRain>Giftregen</WR_ToxRain>
+  <WR_SnowGentle>Leichter Schnee</WR_SnowGentle>
+  <WR_SnowHard>Starker Schnee</WR_SnowHard>
+  <WR_Blizzard>Schneesturm</WR_Blizzard>
+  <WR_Fog>Nebel</WR_Fog>
+  <WR_OtherHaze>Andere Schleier</WR_OtherHaze>
+  <WR_OtherHazeDesc>Blutnebel, Todesschleier, Ascheschleier, Blindnebel, Sandsturm</WR_OtherHazeDesc>
+  <WR_Lightning>Blitze</WR_Lightning>
+  <WR_FogDensity>Nebeldichte</WR_FogDensity>
+  <WR_FogNote>Unter RimWorld 1.7 zeigt Vanilla bei Nebel und Schleiern nichts an. Ausgeschaltet ist dort also gar kein Nebel zu sehen.</WR_FogNote>
+  <WR_ResetTab>Auf Standard zurücksetzen</WR_ResetTab>
+  <WR_Pregen>Texturen vorab erzeugen</WR_Pregen>
+  <WR_PregenDesc>Erzeugt jetzt den Schnee für alle Pflanzen und Gegenstände, in der eingestellten Schneequalität. Dauert etwa eine Minute und läuft auch bei geschlossenem Fenster weiter. Abbrechen geht jederzeit: Fehlende Texturen entstehen dann im Spiel, sobald sie gebraucht werden.</WR_PregenDesc>
+  <WR_PregenProgress>{0} / {1}</WR_PregenProgress>
+  <WR_PregenCancel>Abbrechen</WR_PregenCancel>
+  <WR_StrengthDesc>Der Regler stellt ein, wie dicht das Wetter gezeichnet wird: 25 bis 200 %. Über 100 % kommt eine zweite Lage dazu. Am Spiel ändert sich nichts.</WR_StrengthDesc>
+  <WR_CacheLimit>Höchstens</WR_CacheLimit>
+  <WR_CacheLimitUnit>MB</WR_CacheLimitUnit>
+  <WR_CacheLimitDesc>Wird der Cache größer, fallen die ältesten Texturen weg. Mindestens 64 MB. Nach einer vollständigen Vorberechnung wird die Grenze so angehoben, dass alles erhalten bleibt.</WR_CacheLimitDesc>
+  <WR_FreezingWater>Gefrierendes Wasser</WR_FreezingWater>
+  <WR_FreezingWaterDesc>Bei Frost frieren Seen sowie seichtes und tiefes Wasser vom Ufer her zu, Flüsse und Meer nur stellenweise am Ufer. Über Eis kann man gehen. Unter Befehle lässt es sich mit „Eis aufbrechen“ entfernen, mit Medieval Overhaul gibt das Eisblöcke. Aus heißt: Es entsteht kein neues Eis, vorhandenes taut normal.</WR_FreezingWaterDesc>
+  <WR_SnowStages>Schneestufen</WR_SnowStages>
+  <WR_SnowStagesTrees>Bäume</WR_SnowStagesTrees>
+  <WR_SnowStagesEaves>Traufen</WR_SnowStagesEaves>
+  <WR_SnowStagesValue>{0} Stufen</WR_SnowStagesValue>
+  <WR_SnowStagesDesc>Wie viele Zwischenstufen der Schnee hat, bis er voll liegt: 2 bis 5. Die Stufen folgen der Schneeanzeige des Spiels, bei 5 Stufen: Hauch, dünn, mittel, dick, voll, mit 10 %, 33 %, 55 %, 78 % und 100 % Schnee. Gilt nur für Bäume und Traufen, nicht für Büsche, Möbel oder Gegenstände. Mehr Stufen machen den Übergang feiner. Bei Bäumen kosten sie Cache und Vorberechnungszeit, 5 Stufen sind etwa 1,7-mal so viele Baumbilder wie 3. Traufen kosten keinen Cache. Neue Stufen entstehen im Spiel bei Bedarf.</WR_SnowStagesDesc>
+  <WR_HideIndoorWeather>Nebel unter Dächern ausblenden</WR_HideIndoorWeather>
+  <WR_HideIndoorWeatherDesc>An: Der Nebel des Schneesturms ist unter gebauten Dächern nicht mehr zu sehen. Aus: Unter gebauten Dächern ist er halb so dicht. Flocken und Regen bleiben immer sichtbar, über Bergen bleibt der Nebel voll.</WR_HideIndoorWeatherDesc>
+</LanguageData>

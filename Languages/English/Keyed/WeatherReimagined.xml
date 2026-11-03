@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WR_TabGeneral>General</WR_TabGeneral>
+  <WR_TabFire>Fire</WR_TabFire>
+  <WR_TabSnow>Snow</WR_TabSnow>
+  <WR_TabWeather>Weather</WR_TabWeather>
+  <WR_Low>Low</WR_Low>
+  <WR_Medium>Medium</WR_Medium>
+  <WR_High>High</WR_High>
+  <WR_Quality>Quality</WR_Quality>
+  <WR_SnowQuality>Snow quality</WR_SnowQuality>
+  <WR_SnowQualityDesc>Sharpness of snow and eaves. High needs four times the video memory.</WR_SnowQualityDesc>
+  <WR_SnowLowLater>Snow has no low setting yet.</WR_SnowLowLater>
+  <WR_FlameQuality>Flame quality</WR_FlameQuality>
+  <WR_FlameQualityDesc>Low: one simple flame, scaled to the size of the object. Medium: own flame shape for trees and walls. High: own flame shape for everything, uses the most memory. Hearths and torches are not affected.</WR_FlameQualityDesc>
+  <WR_Animation>Fire animation</WR_Animation>
+  <WR_AnimationDesc>Frames per flame: 8, 12 or 16. Fewer frames flicker more coarsely and need less memory.</WR_AnimationDesc>
+  <WR_Workers>Processing power</WR_Workers>
+  <WR_WorkersDesc>Background threads for snow and eaves. On this PC: {0}, {1} or {2}. More threads finish the snow faster.</WR_WorkersDesc>
+  <WR_ChangeRebuilds>A change recalculates snow and flames. This can take a few seconds.</WR_ChangeRebuilds>
+  <WR_Cache>Cache</WR_Cache>
+  <WR_CacheDesc>Finished textures are kept on disk and load faster on the next start.</WR_CacheDesc>
+  <WR_CacheSize>Cache: {0} MB</WR_CacheSize>
+  <WR_CacheClear>Clear cache</WR_CacheClear>
+  <WR_PreviewDesc>The preview shows real flames from the game. Click a picture to choose the style.</WR_PreviewDesc>
+  <WR_FlamesWhere>Where flames are redrawn</WR_FlamesWhere>
+  <WR_BurningPawns>Burning pawns</WR_BurningPawns>
+  <WR_Torches>Torches, stoves and fireplaces</WR_Torches>
+  <WR_FlamesOffDesc>Off means these flames look like vanilla again. Fires on the ground, on trees and on buildings stay new.</WR_FlamesOffDesc>
+  <WR_SnowOn>Snow lies on</WR_SnowOn>
+  <WR_SnowTrees>Trees</WR_SnowTrees>
+  <WR_SnowBushes>Bushes and flowers</WR_SnowBushes>
+  <WR_SnowBuildings>Furniture and buildings</WR_SnowBuildings>
+  <WR_SnowItems>Items on the ground</WR_SnowItems>
+  <WR_SnowEaves>Eaves</WR_SnowEaves>
+  <WR_SnowWalls>Ground snow up to walls</WR_SnowWalls>
+  <WR_SnowOffDesc>Off means snow looks like vanilla there again. How much snow falls and stays never changes.</WR_SnowOffDesc>
+  <WR_Weathers>Redrawn weather</WR_Weathers>
+  <WR_GroupRain>Rain</WR_GroupRain>
+  <WR_GroupSnow>Snow</WR_GroupSnow>
+  <WR_GroupFog>Fog and haze</WR_GroupFog>
+  <WR_GroupStorm>Thunderstorm</WR_GroupStorm>
+  <WR_Rain>Rain</WR_Rain>
+  <WR_TorrentialRain>Torrential rain</WR_TorrentialRain>
+  <WR_BloodRain>Blood rain</WR_BloodRain>
+  <WR_ToxRain>Toxic rain</WR_ToxRain>
+  <WR_SnowGentle>Light snow</WR_SnowGentle>
+  <WR_SnowHard>Heavy snow</WR_SnowHard>
+  <WR_Blizzard>Blizzard</WR_Blizzard>
+  <WR_Fog>Fog</WR_Fog>
+  <WR_OtherHaze>Other hazes</WR_OtherHaze>
+  <WR_OtherHazeDesc>Blood fog, death pall, ash pall, blind fog, sandstorm</WR_OtherHazeDesc>
+  <WR_Lightning>Lightning</WR_Lightning>
+  <WR_FogDensity>Fog density</WR_FogDensity>
+  <WR_FogNote>Under RimWorld 1.7, vanilla shows nothing for fog and hazes. Switched off, no fog is visible there at all.</WR_FogNote>
+  <WR_ResetTab>Reset to default</WR_ResetTab>
+  <WR_Pregen>Pregenerate textures</WR_Pregen>
+  <WR_PregenDesc>Generates the snow for all plants and items now, in the chosen snow quality. Takes about a minute and keeps running when the window is closed. You can cancel at any time: missing textures are then created in game when they are needed.</WR_PregenDesc>
+  <WR_PregenProgress>{0} / {1}</WR_PregenProgress>
+  <WR_PregenCancel>Cancel</WR_PregenCancel>
+  <WR_StrengthDesc>The slider sets how dense the weather is drawn: 25 to 200 %. Above 100 % a second layer is added. Gameplay does not change.</WR_StrengthDesc>
+  <WR_CacheLimit>At most</WR_CacheLimit>
+  <WR_CacheLimitUnit>MB</WR_CacheLimitUnit>
+  <WR_CacheLimitDesc>If the cache grows larger, the oldest textures are dropped. At least 64 MB. After a complete pregeneration the limit is raised so that everything is kept.</WR_CacheLimitDesc>
+  <WR_FreezingWater>Freezing water</WR_FreezingWater>
+  <WR_FreezingWaterDesc>In frost, lakes and shallow and deep water freeze from the shore, rivers and the sea only in places along the shore. Ice can be walked on. Under Orders it can be removed with "Break ice", with Medieval Overhaul this yields ice blocks. Off means no new ice forms, existing ice thaws normally.</WR_FreezingWaterDesc>
+  <WR_SnowStages>Snow stages</WR_SnowStages>
+  <WR_SnowStagesTrees>Trees</WR_SnowStagesTrees>
+  <WR_SnowStagesEaves>Eaves</WR_SnowStagesEaves>
+  <WR_SnowStagesValue>{0} stages</WR_SnowStagesValue>
+  <WR_SnowStagesDesc>How many steps the snow has until it lies fully: 2 to 5. The stages follow the game's snow display; with 5 stages: trace, thin, medium, thick, full, at 10 %, 33 %, 55 %, 78 % and 100 % snow. Only for trees and eaves, not for bushes, furniture or items. More stages make the transition finer. For trees they cost cache and pregeneration time, 5 stages are about 1.7 times as many tree images as 3. Eaves cost no cache. New stages are created in game when needed.</WR_SnowStagesDesc>
+  <WR_HideIndoorWeather>Hide fog under roofs</WR_HideIndoorWeather>
+  <WR_HideIndoorWeatherDesc>On: the blizzard's fog no longer shows under built roofs. Off: under built roofs it is shown at half density. Snowflakes and rain always stay visible, and over mountains the fog stays full.</WR_HideIndoorWeatherDesc>
+</LanguageData>

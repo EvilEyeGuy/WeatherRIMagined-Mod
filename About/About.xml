@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>EvilEyeGuy.WeatherReimagined</packageId>
+  <name>Weather Reimagined</name>
+  <author>EvilEyeGuy</author>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Owlchemist.ScatteredFlames</li>
+  </loadAfter>
+  <incompatibleWith>
+    <li>EvilEyeGuy.LivingFire</li>
+    <li>EvilEyeGuy.SnowOnTrees</li>
+    <li>EvilEyeGuy.LivingWeather</li>
+  </incompatibleWith>
+  <description>A visual reskin of fire, snow and weather. Nothing else changes: fire spread, damage, light, snowfall and weather effects stay vanilla.
+
+Fire: animated, layered flames that follow the shape of whatever burns, with a glowing ember bed. Realistic or simple flame style in the mod settings.
+
+Snow: snow settles on trees, bushes, furniture and eaves, generated from each object's own graphic, so modded objects work without extra textures.
+
+Weather: rain, snow, blizzards, fog and lightning drawn anew for RimWorld 1.7, including torrential, blood and toxic rain.</description>
+</ModMetaData>

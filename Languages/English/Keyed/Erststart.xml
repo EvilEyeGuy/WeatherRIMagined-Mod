@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WR_FirstStartTitle>Weather Reimagined: preparing textures</WR_FirstStartTitle>
+  <WR_FirstStartText>Snow textures for all plants, furniture and items are created once and stored. Afterwards snow appears in game right away.</WR_FirstStartText>
+  <WR_FirstStartLater>You can cancel at any time and continue later in the mod settings under General. Finished textures are kept.</WR_FirstStartLater>
+  <WR_FirstStartDone>Done. All textures are in the cache.</WR_FirstStartDone>
+  <WR_FirstStartCancel>Cancel</WR_FirstStartCancel>
+</LanguageData>

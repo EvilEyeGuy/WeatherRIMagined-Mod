@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WR_Ice.label>Eis</WR_Ice.label>
+  <WR_Ice.description>Eine gefrorene Schicht über seichtem Wasser. Sie taut, sobald es wärmer wird.</WR_Ice.description>
+  <WR_IceDeep.label>Eis</WR_IceDeep.label>
+  <WR_IceDeep.description>Eine gefrorene Schicht über tiefem Wasser. Sie taut, sobald es wärmer wird.</WR_IceDeep.description>
+</LanguageData>
