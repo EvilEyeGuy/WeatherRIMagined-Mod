@@ -45,4 +45,11 @@
       <li>LivingWeather.Ueberlagerung_Giftregen</li>
     </value>
   </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/WeatherDef[defName="VEE_Whiteout"]/overlayClasses</xpath>
+    <value>
+      <li>LivingWeather.Ueberlagerung_Whiteout</li>
+    </value>
+  </Operation>
 </Patch>
