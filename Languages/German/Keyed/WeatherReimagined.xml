@@ -71,4 +71,8 @@
   <WR_SnowStagesDesc>Wie viele Zwischenstufen der Schnee hat, bis er voll liegt: 2 bis 5. Die Stufen folgen der Schneeanzeige des Spiels, bei 5 Stufen: Hauch, dünn, mittel, dick, voll, mit 10 %, 33 %, 55 %, 78 % und 100 % Schnee. Gilt nur für Bäume und Traufen, nicht für Büsche, Möbel oder Gegenstände. Mehr Stufen machen den Übergang feiner. Bei Bäumen kosten sie Cache und Vorberechnungszeit, 5 Stufen sind etwa 1,7-mal so viele Baumbilder wie 3. Traufen kosten keinen Cache. Neue Stufen entstehen im Spiel bei Bedarf.</WR_SnowStagesDesc>
   <WR_HideIndoorWeather>Nebel unter Dächern ausblenden</WR_HideIndoorWeather>
   <WR_HideIndoorWeatherDesc>An: Der Nebel des Schneesturms ist unter gebauten Dächern nicht mehr zu sehen. Aus: Unter gebauten Dächern ist er halb so dicht. Flocken und Regen bleiben immer sichtbar, über Bergen bleibt der Nebel voll.</WR_HideIndoorWeatherDesc>
+  <WR_SnowRefresh>Schnee-Aktualisierung</WR_SnowRefresh>
+  <WR_SnowRefreshVanilla>Vanilla (sofort)</WR_SnowRefreshVanilla>
+  <WR_SnowRefreshValue>alle {0} s</WR_SnowRefreshValue>
+  <WR_SnowRefreshDesc>Wie oft sich Schnee auf Pflanzen, Dingen und Traufen beim Schneien und Tauen sichtbar anpasst. Vanilla aktualisiert ständig. Größere Werte sparen beim Tauen und in großen Kolonien deutlich FPS, der Schnee springt dafür in kleinen Schritten. Der Bodenschnee bleibt flüssig.</WR_SnowRefreshDesc>
 </LanguageData>
