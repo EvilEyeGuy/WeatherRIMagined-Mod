@@ -70,7 +70,7 @@
   <WR_SnowStagesValue>{0} stages</WR_SnowStagesValue>
   <WR_SnowStagesDesc>How many steps the snow has until it lies fully: 2 to 5. The stages follow the game's snow display; with 5 stages: trace, thin, medium, thick, full, at 10 %, 33 %, 55 %, 78 % and 100 % snow. Only for trees and eaves, not for bushes, furniture or items. More stages make the transition finer. For trees they cost cache and pregeneration time, 5 stages are about 1.7 times as many tree images as 3. Eaves cost no cache. New stages are created in game when needed.</WR_SnowStagesDesc>
   <WR_HideIndoorWeather>Hide fog under roofs</WR_HideIndoorWeather>
-  <WR_HideIndoorWeatherDesc>On: the blizzard's fog no longer shows under built roofs. Off: under built roofs it is shown at half density. Snowflakes and rain always stay visible, and over mountains the fog stays full.</WR_HideIndoorWeatherDesc>
+  <WR_HideIndoorWeatherDesc>On: the blizzard's fog no longer shows under built roofs. Off: the fog has the same density everywhere. Snowflakes and rain always stay visible, and over mountains the fog stays full.</WR_HideIndoorWeatherDesc>
   <WR_SnowRefresh>Snow refresh</WR_SnowRefresh>
   <WR_SnowRefreshVanilla>Vanilla (instant)</WR_SnowRefreshVanilla>
   <WR_SnowRefreshValue>every {0} s</WR_SnowRefreshValue>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WeatherReimagined.EaveListDef>
+    <defName>WR_Eaves_ArchitectureOfTheRim</defName>
+    <eaves>
+      <li>AR_Rafter</li>
+      <li>AR_Eave</li>
+      <li>AR_Eave_half</li>
+      <li>AR_EaveInnerCorner</li>
+      <li>AR_EaveCorner</li>
+      <li>AR_EaveStony</li>
+      <li>AR_EaveStony_half</li>
+      <li>AR_StonyEaveInnerCornerSmall</li>
+      <li>AR_StonyEaveOuterCornerSmall</li>
+      <li>AR_StonyEaveInnerCorner</li>
+      <li>AR_StonyEaveOuterCorner</li>
+      <li>AR_EaveWoody</li>
+      <li>AR_EaveWoody_half</li>
+      <li>AR_WoodyEaveInnerCornerSmall</li>
+      <li>AR_WoodyEaveOuterCornerSmall</li>
+      <li>AR_WoodyEaveInnerCorner</li>
+      <li>AR_WoodyEaveOuterCorner</li>
+    </eaves>
+  </WeatherReimagined.EaveListDef>
+</Defs>
