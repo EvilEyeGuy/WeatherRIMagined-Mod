@@ -6,4 +6,6 @@
   <LivingFire_StyleRealisticTip>Soft, flickering flames with glowing color gradients.</LivingFire_StyleRealisticTip>
   <LivingFire_StyleSimple>Simple</LivingFire_StyleSimple>
   <LivingFire_StyleSimpleTip>Flat two-tone flames with clean outlines, close to the vanilla art style.</LivingFire_StyleSimpleTip>
+  <LivingFire_StyleVanilla>Vanilla</LivingFire_StyleVanilla>
+  <LivingFire_StyleVanillaTip>The original RimWorld fire, unchanged.</LivingFire_StyleVanillaTip>
 </LanguageData>
