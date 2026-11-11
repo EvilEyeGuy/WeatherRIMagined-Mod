@@ -283,4 +283,26 @@
     </shaderProgram>
   </ShaderDef>
 
+  <ShaderDef>
+    <defName>WR_Flame</defName>
+    <shaderProgram>
+      <vertexShaderFileName>Mote.vert.glsl</vertexShaderFileName>
+      <fragmentShaderFileName>TransparentPostLight.frag.glsl</fragmentShaderFileName>
+      <transparent>true</transparent>
+      <depthWrite>false</depthWrite>
+      <renderQueue>3176</renderQueue>
+    </shaderProgram>
+  </ShaderDef>
+
+  <ShaderDef>
+    <defName>WR_FlameGlow</defName>
+    <shaderProgram>
+      <vertexShaderFileName>Mote.vert.glsl</vertexShaderFileName>
+      <fragmentShaderFileName>MoteGlow.frag.glsl</fragmentShaderFileName>
+      <blendMode>Additive</blendMode>
+      <depthWrite>false</depthWrite>
+      <renderQueue>3177</renderQueue>
+    </shaderProgram>
+  </ShaderDef>
+
 </Defs>

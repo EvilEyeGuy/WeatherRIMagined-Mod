@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <WR_FirstStartTitle>Weather Reimagined: preparing textures</WR_FirstStartTitle>
-  <WR_FirstStartText>Snow textures for all plants, furniture and items and the flames of hearths, stoves and burning trees and buildings are created once and stored. Afterwards they appear in game right away.</WR_FirstStartText>
+  <WR_FirstStartText>Snow textures and flames for plants and buildable objects are created once and stored. Everything else is created in game and kept as well.</WR_FirstStartText>
   <WR_FirstStartLater>You can cancel at any time. Missing textures are created at the next game start or in the mod settings under General. Finished textures are kept.</WR_FirstStartLater>
   <WR_FirstStartDone>Done. All textures are in the cache.</WR_FirstStartDone>
   <WR_FirstStartCancel>Cancel</WR_FirstStartCancel>

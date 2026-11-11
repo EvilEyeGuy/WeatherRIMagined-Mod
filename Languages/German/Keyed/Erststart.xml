@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <WR_FirstStartTitle>Weather Reimagined: Texturen vorbereiten</WR_FirstStartTitle>
-  <WR_FirstStartText>Schneetexturen für alle Pflanzen, Möbel und Gegenstände und die Flammen von Herden, Öfen sowie brennenden Bäumen und Gebäuden werden einmalig erzeugt und gespeichert. Danach erscheinen sie im Spiel sofort.</WR_FirstStartText>
+  <WR_FirstStartText>Schneetexturen und Flammen für Pflanzen und baubare Objekte werden einmal erzeugt und gespeichert. Alles andere entsteht im Spiel und bleibt ebenfalls erhalten.</WR_FirstStartText>
   <WR_FirstStartLater>Du kannst jederzeit abbrechen. Fehlende Texturen entstehen beim nächsten Spielstart oder in den Mod-Einstellungen unter Allgemein. Fertige Texturen bleiben erhalten.</WR_FirstStartLater>
   <WR_FirstStartDone>Fertig. Alle Texturen liegen im Cache.</WR_FirstStartDone>
   <WR_FirstStartCancel>Abbrechen</WR_FirstStartCancel>
