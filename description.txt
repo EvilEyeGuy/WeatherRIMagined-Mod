@@ -9,10 +9,7 @@ Snow settles on every tree, bush, building and item, regardless of the mod it co
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h3b_fog.png?v=1[/img]
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/nebel_innen_aus.gif?v=1[/img]
 
-[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h3a_rain.png?v=1[/img]
-[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/regen_innen_aus.gif?v=1[/img]
-
-[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h3d_lightning.png?v=1[/img]
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h3a_rain_lightning.png?v=1[/img]
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/gewitter.gif?v=1[/img]
 
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h3c_aurora.png?v=1[/img]
