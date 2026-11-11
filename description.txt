@@ -2,6 +2,8 @@ A visual overhaul for fire, snow, weather and shadows in RimWorld 1.7.
 
 Rain, snow, blizzards, fog, auroras and lightning all get a new look. You can turn each feature on or off individually in the mod settings.
 
+I tested the performance in a colony with 241 mods and found no significant difference to vanilla. The results are in the performance section further down.
+
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h2_snow.png?v=3[/img]
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/schneesturm_innen_aus.gif?v=3[/img]
 Snow settles on trees, bushes, buildings and items, including those added by other mods. Snow textures are generated from each object's own texture, so no compatibility patches are needed. Eaves from other mods are the only exception. See the compatibility section below for details.
