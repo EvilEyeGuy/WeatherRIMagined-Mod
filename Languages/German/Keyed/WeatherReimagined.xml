@@ -103,6 +103,9 @@
   <WR_Busy_Shadows>Schatten werden vorbereitet</WR_Busy_Shadows>
   <WR_ProgressBar>Fortschrittsbalken</WR_ProgressBar>
   <WR_ProgressBarShow>Fortschrittsbalken anzeigen</WR_ProgressBarShow>
+  <WR_StatusLine>WR {0} / {1}</WR_StatusLine>
+  <WR_StatusLineShow>Statuszeile anzeigen</WR_StatusLineShow>
+  <WR_StatusLineDesc>Zeigt rechts unten über der Anzeige von Datum und Wetter eine kurze Zeile "WR x / y", während Weather Reimagined im Hintergrund Schnee, Flammen oder Schatten vorbereitet. Die Farbe zeigt, was vorbereitet wird, beim Draufzeigen steht es im Text.</WR_StatusLineDesc>
   <WR_ProgressBarDesc>Zeigt oben einen kleinen Balken, während Weather Reimagined im Hintergrund Schnee, Flammen oder Schatten vorbereitet. Das Spiel läuft in beiden Fällen weiter.</WR_ProgressBarDesc>
   <WR_PreparingMap>Weather Reimagined: Karte wird vorbereitet</WR_PreparingMap>
   <WR_PreparingMapProgress>Weather Reimagined: Schnee und Schatten auf der Karte werden vorbereitet ({0} / {1})</WR_PreparingMapProgress>

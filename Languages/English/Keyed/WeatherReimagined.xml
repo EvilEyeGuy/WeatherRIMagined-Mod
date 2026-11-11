@@ -103,6 +103,9 @@
   <WR_Busy_Shadows>preparing shadows</WR_Busy_Shadows>
   <WR_ProgressBar>Progress bar</WR_ProgressBar>
   <WR_ProgressBarShow>Show progress bar</WR_ProgressBarShow>
+  <WR_StatusLine>WR {0} / {1}</WR_StatusLine>
+  <WR_StatusLineShow>Show status line</WR_StatusLineShow>
+  <WR_StatusLineDesc>Shows a short line "WR x / y" at the bottom right, above the date and weather readout, while Weather Reimagined prepares snow, flames or shadows in the background. The colour tells what is being prepared, hover over it for details.</WR_StatusLineDesc>
   <WR_ProgressBarDesc>Shows a small bar at the top of the screen while Weather Reimagined prepares snow, flames or shadows in the background. The game keeps running either way.</WR_ProgressBarDesc>
   <WR_PreparingMap>Weather Reimagined: preparing the map</WR_PreparingMap>
   <WR_PreparingMapProgress>Weather Reimagined: preparing snow and shadows on the map ({0} / {1})</WR_PreparingMapProgress>
