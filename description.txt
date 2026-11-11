@@ -103,6 +103,8 @@ Buildings with an open fire, such as furnaces or candles, get flames at fixed sp
 
 Use firesNorth, firesEast, firesSouth and firesWest to set different spots per rotation. With <onlyWhenUsed>true</onlyWhenUsed>, the flames only burn while the building is in use. Otherwise they follow the building's light or fuel.
 
+Small flames, for example on candles, work the same way if you like to add them: use a small size of about 0.2 to 0.3 and <roundBase>true</roundBase> for a round flame base like a candle flame.
+
 To shape the flames exactly, add a fire mask next to the building's texture, for example [i]Things/MyFurnace_south_firemask.png[/i] and the same for north, east and west. Opaque pixels mark where the flames burn. A missing direction is taken from another one.
 
 [b]Excluding objects from snow[/b]
