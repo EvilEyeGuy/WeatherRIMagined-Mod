@@ -40,7 +40,7 @@ By day, trees, buildings, items, pawns and animals cast shadows that follow the 
 In frost conditions, lakes, shallow and deep water freeze from the shore. Ice can be walked on and removed with "Break ice". With Medieval Overhaul this yields ice blocks. Freezing water can be turned off in the settings.
 
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h6_settings.png?v=1[/img]
-[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/einstellungen.gif?v=1[/img]
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/einstellungen.gif?v=2[/img]
 Fire, snow, weather and shadows each have their own tab in the mod settings. Every part can be turned off, off means vanilla.
 
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h7_performance.png?v=1[/img]
