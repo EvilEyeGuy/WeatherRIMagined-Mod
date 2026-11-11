@@ -1,6 +1,6 @@
 A visual reskin of fire, snow, weather and shadows for RimWorld 1.7. Fire spread, damage, light, snowfall and weather effects stay vanilla. The only gameplay addition is freezing water, which can be turned off.
 
-Rain, snow, blizzards, fog, aurora and lightning are drawn anew.
+Rain, snow, blizzards, fog, aurora and lightning are drawn anew. Every part can be turned off on its own, more on that under Settings.
 
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h2_snow.png?v=1[/img]
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/schneesturm_innen_aus.gif?v=1[/img]
@@ -38,7 +38,9 @@ In frost conditions, lakes, shallow and deep water freeze from the shore. Ice ca
 
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h6_settings.png?v=1[/img]
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/einstellungen.gif?v=2[/img]
-Fire, snow, weather and shadows each have their own tab in the mod settings. Every part can be turned off, off means vanilla.
+Every part can be turned off on its own, off means vanilla. The main settings:
+
+[list][*][b]General:[/b] texture cache on disk with a size limit, pregeneration of all snow textures, a small status line while snow, flames or shadows are prepared, and preparing the map while loading so nothing pops in afterwards.[*][b]Fire:[/b] flame style (Style 1 to 3 or vanilla) with a preview, animation length of 12, 24 or 48 frames, and where flames are redrawn, for example on burning pawns.[*][b]Snow:[/b] snow on trees, bushes and flowers, furniture and buildings, items, eaves and ground snow up to walls, each on its own. Number of snow stages for trees and eaves, and how often the snow refreshes while it falls or thaws.[*][b]Weather:[/b] rain, torrential, blood and toxic rain, light and heavy snow, blizzard, fog and other hazes, lightning and aurora, each on its own and with a density slider from 25 to 200 %. Weather can be hidden under roofs and optionally under mountains. Freezing water can be turned off, and existing ice can be removed at once.[*][b]Shadows:[/b] trees, bushes, objects, items, pawns and animals and torches at night, each on its own, plus soft shadows and the tree shadow length.[/list]
 
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h7_performance.png?v=1[/img]
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/performance_1.png?v=1[/img]
