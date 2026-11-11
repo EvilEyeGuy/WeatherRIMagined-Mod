@@ -23,7 +23,8 @@ void main()
         discard;
     }
     vec3 ton = max(max(uMaterial._WR_Wetter.y, uMaterial._WR_Wetter.z), uMaterial._WR_Wetter.w) > 0.0 ? uMaterial._WR_Wetter.yzw : vec3(0.42);
-    vec3 d = ton * (clamp(uMaterial._CastVect.w, 0.0, 1.0) * vStaerke * a * (1.0 - clamp(uMaterial._WR_Wetter.x, 0.0, 1.0)));
+    float kraft = vStaerke < 0.0 ? -vStaerke : clamp(uMaterial._CastVect.w, 0.0, 1.0) * vStaerke;
+    vec3 d = ton * (kraft * a * (1.0 - clamp(uMaterial._WR_Wetter.x, 0.0, 1.0)));
     if (max(d.r, max(d.g, d.b)) < 0.004)
     {
         discard;

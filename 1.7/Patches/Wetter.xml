@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationReplace">
+    <success>Always</success>
     <xpath>Defs/WeatherDef/overlayClasses/li[text()="WeatherOverlay_Rain"]</xpath>
     <value>
       <li>LivingWeather.Ueberlagerung_Regen</li>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
+    <success>Always</success>
     <xpath>Defs/WeatherDef/overlayClasses/li[text()="WeatherOverlay_SnowGentle"]</xpath>
     <value>
       <li>LivingWeather.Ueberlagerung_SchneeLeicht</li>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
+    <success>Always</success>
     <xpath>Defs/WeatherDef/overlayClasses/li[text()="WeatherOverlay_SnowHard"]</xpath>
     <value>
       <li>LivingWeather.Ueberlagerung_SchneeDicht</li>

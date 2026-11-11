@@ -267,4 +267,20 @@
     </shaderProgram>
   </ShaderDef>
 
+  <ShaderDef>
+    <defName>WR_Aurora</defName>
+    <shaderProgram>
+      <fragmentShaderFileName>WR_Aurora.frag.glsl</fragmentShaderFileName>
+      <blendMode>Additive</blendMode>
+      <depthWrite>false</depthWrite>
+      <stencilEnabled>true</stencilEnabled>
+      <stencilCompare>Equal</stencilCompare>
+      <stencilPassOp>Keep</stencilPassOp>
+      <stencilRef>0</stencilRef>
+      <stencilReadMask>32</stencilReadMask>
+      <stencilWriteMask>0</stencilWriteMask>
+      <renderQueue>3180</renderQueue>
+    </shaderProgram>
+  </ShaderDef>
+
 </Defs>

@@ -33,7 +33,7 @@ void main()
     float betrag = length(sonne);
     float weite = (inColor.g * 255.0 * 256.0 + inColor.a * 255.0) / 65535.0 * 32.0 - 8.0;
     vec2 welt = inPosition.xz;
-    vStaerke = (inColor.r >= 0.75 && inColor.r < 0.9) ? inColor.g : 1.0;
+    vStaerke = (inColor.r >= 0.75 && inColor.r < 0.9) ? -inColor.g : 1.0;
     if (inColor.r < 0.75)
     {
         float grenze = inColor.r * 255.0 / 127.0 * 8.0;

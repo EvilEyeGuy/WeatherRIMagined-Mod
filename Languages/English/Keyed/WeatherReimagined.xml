@@ -28,6 +28,8 @@
   <WR_CacheSize>Cache: {0} MB</WR_CacheSize>
   <WR_CacheClear>Clear cache</WR_CacheClear>
   <WR_PreviewDesc>The preview shows real flames from the game. Click a picture to choose the style.</WR_PreviewDesc>
+  <WR_FlameFrames>Animation length</WR_FlameFrames>
+  <WR_FlameFramesDesc>Frames per flame. 12 frames repeat every 0.7 s, 24 every 1.4 s, 48 every 2.7 s. More frames need more memory, and after a change all flames are prepared again, which takes noticeably longer at the next start.</WR_FlameFramesDesc>
   <WR_FlamesWhere>Where flames are redrawn</WR_FlamesWhere>
   <WR_BurningPawns>Burning pawns</WR_BurningPawns>
   <WR_Torches>Torches, stoves and fireplaces</WR_Torches>
@@ -57,6 +59,8 @@
   <WR_OtherHaze>Other hazes</WR_OtherHaze>
   <WR_OtherHazeDesc>Blood fog, death pall, ash pall, blind fog, sandstorm</WR_OtherHazeDesc>
   <WR_Lightning>Lightning</WR_Lightning>
+  <WR_GroupSky>Sky</WR_GroupSky>
+  <WR_Aurora>Aurora</WR_Aurora>
   <WR_FogDensity>Fog density</WR_FogDensity>
   <WR_FogNote>Under RimWorld 1.7, vanilla shows nothing for fog and hazes. Switched off, no fog is visible there at all.</WR_FogNote>
   <WR_ResetTab>Reset to default</WR_ResetTab>
@@ -70,6 +74,8 @@
   <WR_CacheLimitDesc>If the cache grows larger, the oldest textures are dropped. At least 64 MB. After a complete pregeneration the limit is raised so that everything is kept.</WR_CacheLimitDesc>
   <WR_FreezingWater>Freezing water</WR_FreezingWater>
   <WR_FreezingWaterDesc>In frost, lakes and shallow and deep water freeze from the shore, rivers and the sea only in places along the shore. Ice can be walked on. Under Orders it can be removed with "Break ice", with Medieval Overhaul this yields ice blocks. Off means no new ice forms, existing ice thaws normally.</WR_FreezingWaterDesc>
+  <WR_RemoveIce>Remove ice now</WR_RemoveIce>
+  <WR_RemoveIceDesc>Turns all ice made by this mod back into water on every map. Use this before removing the mod, otherwise the ice turns into soil.</WR_RemoveIceDesc>
   <WR_SoftShadows>Soft shadows</WR_SoftShadows>
   <WR_ShadowTrees>Trees cast shadows</WR_ShadowTrees>
   <WR_ShadowBushes>Bushes cast shadows</WR_ShadowBushes>

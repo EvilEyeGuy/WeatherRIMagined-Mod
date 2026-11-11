@@ -28,6 +28,8 @@
   <WR_CacheSize>Cache: {0} MB</WR_CacheSize>
   <WR_CacheClear>Cache löschen</WR_CacheClear>
   <WR_PreviewDesc>Die Vorschau zeigt echte Flammen aus dem Spiel. Ein Klick auf ein Bild wählt den Stil.</WR_PreviewDesc>
+  <WR_FlameFrames>Länge der Animation</WR_FlameFrames>
+  <WR_FlameFramesDesc>Bilder je Flamme. 12 Bilder wiederholen sich alle 0,7 s, 24 alle 1,4 s, 48 alle 2,7 s. Mehr Bilder brauchen mehr Speicher, und nach einer Änderung werden alle Flammen neu vorbereitet, das dauert beim nächsten Start spürbar länger.</WR_FlameFramesDesc>
   <WR_FlamesWhere>Wo Flammen neu gezeichnet werden</WR_FlamesWhere>
   <WR_BurningPawns>Brennende Figuren</WR_BurningPawns>
   <WR_Torches>Fackeln, Öfen und Kamine</WR_Torches>
@@ -57,6 +59,8 @@
   <WR_OtherHaze>Andere Schleier</WR_OtherHaze>
   <WR_OtherHazeDesc>Blutnebel, Todesschleier, Ascheschleier, Blindnebel, Sandsturm</WR_OtherHazeDesc>
   <WR_Lightning>Blitze</WR_Lightning>
+  <WR_GroupSky>Himmel</WR_GroupSky>
+  <WR_Aurora>Polarlicht</WR_Aurora>
   <WR_FogDensity>Nebeldichte</WR_FogDensity>
   <WR_FogNote>Unter RimWorld 1.7 zeigt Vanilla bei Nebel und Schleiern nichts an. Ausgeschaltet ist dort also gar kein Nebel zu sehen.</WR_FogNote>
   <WR_ResetTab>Auf Standard zurücksetzen</WR_ResetTab>
@@ -70,6 +74,8 @@
   <WR_CacheLimitDesc>Wird der Cache größer, fallen die ältesten Texturen weg. Mindestens 64 MB. Nach einer vollständigen Vorberechnung wird die Grenze so angehoben, dass alles erhalten bleibt.</WR_CacheLimitDesc>
   <WR_FreezingWater>Gefrierendes Wasser</WR_FreezingWater>
   <WR_FreezingWaterDesc>Bei Frost frieren Seen sowie seichtes und tiefes Wasser vom Ufer her zu, Flüsse und Meer nur stellenweise am Ufer. Über Eis kann man gehen. Unter Befehle lässt es sich mit „Eis aufbrechen“ entfernen, mit Medieval Overhaul gibt das Eisblöcke. Aus heißt: Es entsteht kein neues Eis, vorhandenes taut normal.</WR_FreezingWaterDesc>
+  <WR_RemoveIce>Eis jetzt entfernen</WR_RemoveIce>
+  <WR_RemoveIceDesc>Verwandelt alles Eis dieses Mods auf allen Karten zurück in Wasser. Vor dem Entfernen des Mods benutzen, sonst wird das Eis zu Erde.</WR_RemoveIceDesc>
   <WR_SoftShadows>Weiche Schatten</WR_SoftShadows>
   <WR_ShadowTrees>Bäume werfen Schatten</WR_ShadowTrees>
   <WR_ShadowBushes>Büsche werfen Schatten</WR_ShadowBushes>

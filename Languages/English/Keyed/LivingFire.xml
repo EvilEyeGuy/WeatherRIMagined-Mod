@@ -2,10 +2,12 @@
 <LanguageData>
   <LivingFire_ModName>Weather Reimagined</LivingFire_ModName>
   <LivingFire_Style>Flame style</LivingFire_Style>
-  <LivingFire_StyleRealistic>Realistic</LivingFire_StyleRealistic>
+  <LivingFire_StyleRealistic>Style 3</LivingFire_StyleRealistic>
   <LivingFire_StyleRealisticTip>Soft, flickering flames with glowing color gradients.</LivingFire_StyleRealisticTip>
-  <LivingFire_StyleSimple>Simple</LivingFire_StyleSimple>
-  <LivingFire_StyleSimpleTip>Flat two-tone flames with clean outlines, close to the vanilla art style.</LivingFire_StyleSimpleTip>
+  <LivingFire_StyleMix>Style 2</LivingFire_StyleMix>
+  <LivingFire_StyleMixTip>Clear color bands with a soft edge and a dark rim.</LivingFire_StyleMixTip>
+  <LivingFire_StyleSimple>Style 1</LivingFire_StyleSimple>
+  <LivingFire_StyleSimpleTip>Flat flames in three colors with clean outlines, close to the vanilla art style.</LivingFire_StyleSimpleTip>
   <LivingFire_StyleVanilla>Vanilla</LivingFire_StyleVanilla>
   <LivingFire_StyleVanillaTip>The original RimWorld fire, unchanged.</LivingFire_StyleVanillaTip>
 </LanguageData>
