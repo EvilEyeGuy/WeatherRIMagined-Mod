@@ -311,4 +311,83 @@
 		</match>
 	</Operation>
 
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="DankPyon_Candles"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="DankPyon_Candles"]/comps</xpath>
+			<value>
+				<li Class="LivingFire.CompProperties_Flammenstellen">
+					<firesNorth>
+						<li>
+							<offset>(-0.15, 0, 0.77)</offset>
+							<size>0.30</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(-0.02, 0, 0.43)</offset>
+							<size>0.30</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(0.14, 0, 0.68)</offset>
+							<size>0.30</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesNorth>
+					<firesEast>
+						<li>
+							<offset>(0.03, 0, 0.55)</offset>
+							<size>0.30</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(0.16, 0, 0.22)</offset>
+							<size>0.30</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(0.32, 0, 0.47)</offset>
+							<size>0.30</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesEast>
+					<firesSouth>
+						<li>
+							<offset>(-0.15, 0, 0.20)</offset>
+							<size>0.30</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(0.01, 0, -0.05)</offset>
+							<size>0.30</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(0.14, 0, 0.28)</offset>
+							<size>0.30</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesSouth>
+					<firesWest>
+						<li>
+							<offset>(-0.03, 0, 0.55)</offset>
+							<size>0.30</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(-0.16, 0, 0.22)</offset>
+							<size>0.30</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(-0.32, 0, 0.47)</offset>
+							<size>0.30</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesWest>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
 </Patch>
