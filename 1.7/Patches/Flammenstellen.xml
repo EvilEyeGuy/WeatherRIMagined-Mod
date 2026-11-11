@@ -114,4 +114,201 @@
 		</match>
 	</Operation>
 
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="DankPyon_Candelabra"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="DankPyon_Candelabra"]/comps</xpath>
+			<value>
+				<li Class="LivingFire.CompProperties_Flammenstellen">
+					<firesNorth>
+						<li>
+							<offset>(-0.23, 0, 1.07)</offset>
+							<size>0.11</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(0.00, 0, 1.01)</offset>
+							<size>0.11</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(0.22, 0, 1.06)</offset>
+							<size>0.11</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesNorth>
+					<firesEast>
+						<li>
+							<offset>(-0.04, 0, 0.77)</offset>
+							<size>0.11</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(0.18, 0, 0.71)</offset>
+							<size>0.11</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(0.40, 0, 0.76)</offset>
+							<size>0.11</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesEast>
+					<firesSouth>
+						<li>
+							<offset>(-0.23, 0, 0.55)</offset>
+							<size>0.11</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(0.00, 0, 0.49)</offset>
+							<size>0.11</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(0.22, 0, 0.55)</offset>
+							<size>0.11</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesSouth>
+					<firesWest>
+						<li>
+							<offset>(0.04, 0, 0.77)</offset>
+							<size>0.11</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(-0.18, 0, 0.71)</offset>
+							<size>0.11</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(-0.40, 0, 0.76)</offset>
+							<size>0.11</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesWest>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="DankPyon_CandleStand"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="DankPyon_CandleStand"]/comps</xpath>
+			<value>
+				<li Class="LivingFire.CompProperties_Flammenstellen">
+					<firesNorth>
+						<li>
+							<offset>(-0.28, 0, 1.50)</offset>
+							<size>0.18</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(0.00, 0, 1.42)</offset>
+							<size>0.18</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(0.27, 0, 1.48)</offset>
+							<size>0.18</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesNorth>
+					<firesEast>
+						<li>
+							<offset>(-0.10, 0, 1.27)</offset>
+							<size>0.18</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(0.18, 0, 1.19)</offset>
+							<size>0.18</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(0.46, 0, 1.26)</offset>
+							<size>0.18</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesEast>
+					<firesSouth>
+						<li>
+							<offset>(-0.28, 0, 1.04)</offset>
+							<size>0.18</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(0.00, 0, 0.97)</offset>
+							<size>0.18</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(0.27, 0, 1.03)</offset>
+							<size>0.18</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesSouth>
+					<firesWest>
+						<li>
+							<offset>(0.10, 0, 1.27)</offset>
+							<size>0.18</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(-0.18, 0, 1.19)</offset>
+							<size>0.18</size>
+							<roundBase>true</roundBase>
+						</li>
+						<li>
+							<offset>(-0.46, 0, 1.26)</offset>
+							<size>0.18</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesWest>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="DankPyon_Candle"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="DankPyon_Candle"]/comps</xpath>
+			<value>
+				<li Class="LivingFire.CompProperties_Flammenstellen">
+					<firesNorth>
+						<li>
+							<offset>(-0.01, 0, 0.80)</offset>
+							<size>0.30</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesNorth>
+					<firesEast>
+						<li>
+							<offset>(0.26, 0, 0.56)</offset>
+							<size>0.30</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesEast>
+					<firesSouth>
+						<li>
+							<offset>(-0.01, 0, 0.25)</offset>
+							<size>0.30</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesSouth>
+					<firesWest>
+						<li>
+							<offset>(-0.26, 0, 0.56)</offset>
+							<size>0.30</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesWest>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
 </Patch>
