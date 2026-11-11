@@ -21,6 +21,8 @@ Snow settles on trees, bushes, buildings and items, including those added by oth
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/feuer.gif?v=3[/img]
 Fire follows the shape of whatever is burning. Trees burn down to their trunks, while flames cover the outlines of pawns and animals. You can choose between three flame styles or switch back to vanilla fire in the settings.
 
+Furnaces, torches, candles and other buildings with an open fire get flames at fixed spots. A fire mask can shape these flames exactly, see the compatibility section below.
+
 [b]Style 1[/b]
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/feuer_stil1.gif?v=3[/img]
 
@@ -85,6 +87,23 @@ Alternatively, you can list eaves in a separate def without changing the origina
     <li>MyMod_EaveCategory</li>
   </designationCategories>
 </WeatherReimagined.EaveListDef>[/code]
+
+[b]Flames on buildings[/b]
+
+Buildings with an open fire, such as furnaces or candles, get flames at fixed spots. Add this comp to the ThingDef, with one entry per flame:
+
+[code]<li Class="LivingFire.CompProperties_Flammenstellen">
+  <fires>
+    <li>
+      <offset>(0.00, 0, -0.04)</offset>
+      <size>0.95</size>
+    </li>
+  </fires>
+</li>[/code]
+
+Use firesNorth, firesEast, firesSouth and firesWest to set different spots per rotation. With <onlyWhenUsed>true</onlyWhenUsed>, the flames only burn while the building is in use. Otherwise they follow the building's light or fuel.
+
+To shape the flames exactly, add a fire mask next to the building's texture, for example [i]Things/MyFurnace_south_firemask.png[/i] and the same for north, east and west. Opaque pixels mark where the flames burn. A missing direction is taken from another one.
 
 [b]Excluding objects from snow[/b]
 
