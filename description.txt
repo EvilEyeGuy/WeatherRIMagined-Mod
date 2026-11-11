@@ -37,7 +37,7 @@ By day, trees, buildings, items, pawns and animals cast shadows that follow the 
 
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h5_freezing_water.png?v=1[/img]
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/zufrieren.gif?v=1[/img]
-In frost, lakes and shallow and deep water freeze from the shore. Ice can be walked on and removed with "Break ice". With Medieval Overhaul this yields ice blocks.
+In frost conditions, lakes, shallow and deep water freeze from the shore. Ice can be walked on and removed with "Break ice". With Medieval Overhaul this yields ice blocks. Freezing water can be turned off in the settings.
 
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h6_settings.png?v=1[/img]
 [img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/einstellungen.gif?v=1[/img]
@@ -90,3 +90,5 @@ Or list the defs in a separate def, without changing the other mod. Unknown name
 I use [b]Claude and Codex as coding assistants[/b]. The ideas are mine, and each feature is worked out step by step until it works the way I want. Changes are [b]checked in test setups and in-game[/b] before they go in, and the performance is [b]measured against vanilla[/b] in a colony with 241 mods.
 
 I keep the mod updated and work on reported bugs and mod conflicts. Report problems in the comments or a discussion, with a log and a short note on what happened.
+
+[url=https://github.com/EvilEyeGuy/WeatherRIMagined-Mod/issues][img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/knopf_bug.png?v=1[/img][/url]
