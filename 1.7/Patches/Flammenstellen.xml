@@ -74,4 +74,44 @@
 		</match>
 	</Operation>
 
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="DankPyon_QuestFinder"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="DankPyon_QuestFinder"]/comps</xpath>
+			<value>
+				<li Class="LivingFire.CompProperties_Flammenstellen">
+					<onlyWhenUsed>true</onlyWhenUsed>
+					<firesNorth>
+						<li>
+							<offset>(-1.11, 0, 1.66)</offset>
+							<size>0.40</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesNorth>
+					<firesEast>
+						<li>
+							<offset>(-1.02, 0, -0.34)</offset>
+							<size>0.40</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesEast>
+					<firesSouth>
+						<li>
+							<offset>(1.15, 0, -0.22)</offset>
+							<size>0.40</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesSouth>
+					<firesWest>
+						<li>
+							<offset>(1.13, 0, 1.71)</offset>
+							<size>0.40</size>
+							<roundBase>true</roundBase>
+						</li>
+					</firesWest>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
 </Patch>
