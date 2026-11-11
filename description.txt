@@ -1,0 +1,92 @@
+A visual reskin of fire, snow, weather and shadows for RimWorld 1.7. Fire spread, damage, light, snowfall and weather effects stay vanilla. The only gameplay addition is freezing water, which can be turned off.
+
+Rain, snow, blizzards, fog, aurora and lightning are drawn anew.
+
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h2_snow.png?v=1[/img]
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/schneesturm_innen_aus.gif?v=1[/img]
+Snow settles on every tree, bush, building and item, regardless of the mod it comes from. The snow-covered texture is generated in game from each object's own texture, so compatibility is automatic. The only exception are eaves from other mods, see Compatibility.
+
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h3b_fog.png?v=1[/img]
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/nebel_innen_aus.gif?v=1[/img]
+
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h3a_rain.png?v=1[/img]
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/regen_innen_aus.gif?v=1[/img]
+
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h3d_lightning.png?v=1[/img]
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/gewitter.gif?v=1[/img]
+
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h3c_aurora.png?v=1[/img]
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/aurora.gif?v=1[/img]
+
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h1_fire.png?v=1[/img]
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/feuer.gif?v=1[/img]
+The flames are generated from the texture of whatever burns and follow its shape. Trees burn down to the trunk, pawns and animals burn along their outline. Three flame styles are included, and the vanilla fire can be switched back on in the settings.
+
+[b]Style 1[/b]
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/feuer_stil1.gif?v=1[/img]
+
+[b]Style 2[/b]
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/feuer_stil2.gif?v=1[/img]
+
+[b]Style 3[/b]
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/feuer_stil3.gif?v=1[/img]
+
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h4_shadows.png?v=1[/img]
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/sonne_schatten.gif?v=1[/img]
+By day, trees, buildings, items, pawns and animals cast shadows that follow the sun. At night, only light sources such as torches, lamps and campfires cast shadows. Indoors no shadows are drawn.
+
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h5_freezing_water.png?v=1[/img]
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/zufrieren.gif?v=1[/img]
+In frost, lakes and shallow and deep water freeze from the shore. Ice can be walked on and removed with "Break ice". With Medieval Overhaul this yields ice blocks.
+
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h6_settings.png?v=1[/img]
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/einstellungen.gif?v=1[/img]
+Fire, snow, weather and shadows each have their own tab in the mod settings. Every part can be turned off, off means vanilla.
+
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h7_performance.png?v=1[/img]
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/performance_1.png?v=1[/img]
+[url=https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/performance_spread.png?v=1][img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/performance_spread_link.png?v=1[/img][/url]
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/performance_2.png?v=1[/img]
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h8_compatibility.png?v=1[/img]
+Objects, plants and buildings from other mods get snow and flames from their own graphics, no patches are needed. Weather from other mods, for example from Vanilla Expanded, keeps its own look. With Medieval Overhaul, candles, candelabras and candle stands burn with Weather Reimagined flames. Harmony is required.
+
+[b]Eaves from other mods[/b] have to be marked. Eaves get their own snow and stop rain and snow at the roof edge, so Weather Reimagined has to know which buildings are eaves. Either add the extension to the eave's ThingDef:
+
+[code]<modExtensions>
+  <li Class="WeatherReimagined.EaveExtension" />
+</modExtensions>[/code]
+
+Or list the eaves in a separate def. This needs no change to the other mod, and whole designation categories can be added at once:
+
+[code]<WeatherReimagined.EaveListDef>
+  <defName>MyMod_Eaves</defName>
+  <eaves>
+    <li>MyMod_Eave</li>
+  </eaves>
+  <designationCategories>
+    <li>MyMod_EaveCategory</li>
+  </designationCategories>
+</WeatherReimagined.EaveListDef>[/code]
+
+[b]Excluding objects from snow.[/b] An object can be kept free of the generated snow. Trees, bushes and other plants then keep the vanilla snow look, buildings, items and eaves get no snow. Snow on the ground is not affected. Either add the extension to the ThingDef:
+
+[code]<modExtensions>
+  <li Class="WeatherReimagined.NoSnowExtension" />
+</modExtensions>[/code]
+
+Or list the defs in a separate def, without changing the other mod. Unknown names are skipped, so no MayRequire is needed:
+
+[code]<WeatherReimagined.NoSnowListDef>
+  <defName>MyMod_NoSnow</defName>
+  <defs>
+    <li>SomeThingDefName</li>
+  </defs>
+  <designationCategories>
+    <li>SomeDesignationCategoryDefName</li>
+  </designationCategories>
+</WeatherReimagined.NoSnowListDef>[/code]
+
+[img]https://raw.githubusercontent.com/EvilEyeGuy/WeatherRIMagined-Mod/workshop/h9_ai.png?v=1[/img]
+I use [b]Claude and Codex as coding assistants[/b]. The ideas are mine, and each feature is worked out step by step until it works the way I want. Changes are [b]checked in test setups and in-game[/b] before they go in, and the performance is [b]measured against vanilla[/b] in a colony with 241 mods.
+
+I keep the mod updated and work on reported bugs and mod conflicts. Report problems in the comments or a discussion, with a log and a short note on what happened.
