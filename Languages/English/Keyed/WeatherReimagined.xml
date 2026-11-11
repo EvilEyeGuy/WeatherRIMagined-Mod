@@ -9,10 +9,15 @@
   <WR_High>High</WR_High>
   <WR_Quality>Quality</WR_Quality>
   <WR_SnowQuality>Snow quality</WR_SnowQuality>
-  <WR_SnowQualityDesc>Sharpness of snow and eaves. High needs four times the video memory.</WR_SnowQualityDesc>
+  <WR_SnowQualityDesc>Sharpness of snow and eaves. Snow on a tree: 256, 512 or 1024 pixels, on smaller things 128, 256 or 512. Each level up needs about four times the video memory.</WR_SnowQualityDesc>
   <WR_SnowLowLater>Snow has no low setting yet.</WR_SnowLowLater>
   <WR_FlameQuality>Flame quality</WR_FlameQuality>
   <WR_FlameQualityDesc>Low: one simple flame, scaled to the size of the object. Medium: own flame shape for trees and walls. High: own flame shape for everything, uses the most memory. Hearths and torches are not affected.</WR_FlameQualityDesc>
+  <WR_Graphics>Graphics</WR_Graphics>
+  <WR_GraphicsDesc>Sets snow quality, flame resolution, flame quality and fire animation together. Custom: the values below match no level. Processing power, weather density and the on/off switches are not changed.</WR_GraphicsDesc>
+  <WR_Custom>Custom</WR_Custom>
+  <WR_FlameResolution>Flame resolution</WR_FlameResolution>
+  <WR_FlameResolutionDesc>Sharpness of the flames. A burning tree is drawn at about 64, 128 or 256 pixels. Each level up needs about four times the memory.</WR_FlameResolutionDesc>
   <WR_Animation>Fire animation</WR_Animation>
   <WR_AnimationDesc>Frames per flame: 8, 12 or 16. Fewer frames flicker more coarsely and need less memory.</WR_AnimationDesc>
   <WR_Workers>Processing power</WR_Workers>
@@ -35,6 +40,7 @@
   <WR_SnowEaves>Eaves</WR_SnowEaves>
   <WR_SnowWalls>Ground snow up to walls</WR_SnowWalls>
   <WR_SnowOffDesc>Off means snow looks like vanilla there again. How much snow falls and stays never changes.</WR_SnowOffDesc>
+  <WR_SnowShader>Snow on trees via shader (faster)</WR_SnowShader>
   <WR_Weathers>Redrawn weather</WR_Weathers>
   <WR_GroupRain>Rain</WR_GroupRain>
   <WR_GroupSnow>Snow</WR_GroupSnow>
@@ -55,7 +61,7 @@
   <WR_FogNote>Under RimWorld 1.7, vanilla shows nothing for fog and hazes. Switched off, no fog is visible there at all.</WR_FogNote>
   <WR_ResetTab>Reset to default</WR_ResetTab>
   <WR_Pregen>Pregenerate textures</WR_Pregen>
-  <WR_PregenDesc>Generates the snow for all plants and items now, in the chosen snow quality. Takes about a minute and keeps running when the window is closed. You can cancel at any time: missing textures are then created in game when they are needed.</WR_PregenDesc>
+  <WR_PregenDesc>Generates the snow for all plants and items now. Takes about a minute and keeps running when the window is closed. You can cancel at any time: missing textures are then created in game when they are needed.</WR_PregenDesc>
   <WR_PregenProgress>{0} / {1}</WR_PregenProgress>
   <WR_PregenCancel>Cancel</WR_PregenCancel>
   <WR_StrengthDesc>The slider sets how dense the weather is drawn: 25 to 200 %. Above 100 % a second layer is added. Gameplay does not change.</WR_StrengthDesc>
@@ -64,15 +70,36 @@
   <WR_CacheLimitDesc>If the cache grows larger, the oldest textures are dropped. At least 64 MB. After a complete pregeneration the limit is raised so that everything is kept.</WR_CacheLimitDesc>
   <WR_FreezingWater>Freezing water</WR_FreezingWater>
   <WR_FreezingWaterDesc>In frost, lakes and shallow and deep water freeze from the shore, rivers and the sea only in places along the shore. Ice can be walked on. Under Orders it can be removed with "Break ice", with Medieval Overhaul this yields ice blocks. Off means no new ice forms, existing ice thaws normally.</WR_FreezingWaterDesc>
+  <WR_SoftShadows>Soft shadows</WR_SoftShadows>
+  <WR_ShadowTrees>Trees cast shadows</WR_ShadowTrees>
+  <WR_ShadowBushes>Bushes cast shadows</WR_ShadowBushes>
+  <WR_ShadowObjects>Objects cast shadows</WR_ShadowObjects>
+  <WR_ShadowItems>Items cast shadows</WR_ShadowItems>
+  <WR_ShadowTorches>Torches cast shadows at night</WR_ShadowTorches>
+  <WR_ShadowPawns>Pawns and animals cast shadows</WR_ShadowPawns>
+  <WR_TreeShadowLength>Tree shadow length</WR_TreeShadowLength>
   <WR_SnowStages>Snow stages</WR_SnowStages>
   <WR_SnowStagesTrees>Trees</WR_SnowStagesTrees>
   <WR_SnowStagesEaves>Eaves</WR_SnowStagesEaves>
   <WR_SnowStagesValue>{0} stages</WR_SnowStagesValue>
   <WR_SnowStagesDesc>How many steps the snow has until it lies fully: 2 to 5. The stages follow the game's snow display; with 5 stages: trace, thin, medium, thick, full, at 10 %, 33 %, 55 %, 78 % and 100 % snow. Only for trees and eaves, not for bushes, furniture or items. More stages make the transition finer. For trees they cost cache and pregeneration time, 5 stages are about 1.7 times as many tree images as 3. Eaves cost no cache. New stages are created in game when needed.</WR_SnowStagesDesc>
-  <WR_HideIndoorWeather>Hide fog under roofs</WR_HideIndoorWeather>
-  <WR_HideIndoorWeatherDesc>On: the blizzard's fog no longer shows under built roofs. Off: the fog has the same density everywhere. Snowflakes and rain always stay visible, and over mountains the fog stays full.</WR_HideIndoorWeatherDesc>
+  <WR_HideIndoorWeather>Hide weather under roofs</WR_HideIndoorWeather>
+  <WR_HideWeatherMountains>Also under mountains</WR_HideWeatherMountains>
+  <WR_HideWeatherMountainsDesc>On: the weather is also hidden under mountain roofs, for example in bases dug into a mountain.</WR_HideWeatherMountainsDesc>
+  <WR_HideIndoorWeatherDesc>On: rain, snow and fog no longer show under built roofs and eaves. Off: the weather shows everywhere. Under mountains only with the option below.</WR_HideIndoorWeatherDesc>
   <WR_SnowRefresh>Snow refresh</WR_SnowRefresh>
   <WR_SnowRefreshVanilla>Vanilla (instant)</WR_SnowRefreshVanilla>
   <WR_SnowRefreshValue>every {0} s</WR_SnowRefreshValue>
   <WR_SnowRefreshDesc>How often snow on plants, things and eaves visibly adjusts while it snows or thaws. Vanilla updates constantly. Higher values save a lot of FPS while thawing and in large colonies, but the snow changes in small steps. Ground snow stays smooth.</WR_SnowRefreshDesc>
+  <WR_Busy>Weather Reimagined: {0}</WR_Busy>
+  <WR_Busy_Snow>preparing snow for plants</WR_Busy_Snow>
+  <WR_Busy_Flames>preparing flames</WR_Busy_Flames>
+  <WR_Busy_Shadows>preparing shadows</WR_Busy_Shadows>
+  <WR_ProgressBar>Progress bar</WR_ProgressBar>
+  <WR_ProgressBarShow>Show progress bar</WR_ProgressBarShow>
+  <WR_ProgressBarDesc>Shows a small bar at the top of the screen while Weather Reimagined prepares snow, flames or shadows in the background. The game keeps running either way.</WR_ProgressBarDesc>
+  <WR_PreparingMap>Weather Reimagined: preparing the map</WR_PreparingMap>
+  <WR_PreparingMapProgress>Weather Reimagined: preparing snow and shadows on the map ({0} / {1})</WR_PreparingMapProgress>
+  <WR_PrepareMap>Prepare the map while loading</WR_PrepareMap>
+  <WR_PrepareMapDesc>After loading a save, the loading screen stays up until snow on trees, bushes, items and eaves and the shadow shapes are ready, so nothing pops in afterwards. Takes a few seconds on large snowy maps.</WR_PrepareMapDesc>
 </LanguageData>

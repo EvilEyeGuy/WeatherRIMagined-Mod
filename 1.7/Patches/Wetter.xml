@@ -19,6 +19,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
+    <success>Always</success>
     <xpath>Defs/WeatherDef/overlayClasses/li[text()="WeatherOverlay_SnowBlizzard"]</xpath>
     <value>
       <li>LivingWeather.Ueberlagerung_Schneesturm</li>

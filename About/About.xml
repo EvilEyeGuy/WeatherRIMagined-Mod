@@ -21,11 +21,15 @@
     <li>EvilEyeGuy.SnowOnTrees</li>
     <li>EvilEyeGuy.LivingWeather</li>
   </incompatibleWith>
-  <description>A visual reskin of fire, snow and weather. Nothing else changes: fire spread, damage, light, snowfall and weather effects stay vanilla.
+  <description>A visual reskin of fire, snow, weather and shadows for RimWorld 1.7. Fire spread, damage, light, snowfall and weather effects stay vanilla. The only gameplay addition is freezing water, which can be turned off.
 
-Fire: animated, layered flames that follow the shape of whatever burns, with a glowing ember bed. Realistic or simple flame style in the mod settings.
+Fire: animated, layered flames follow the shape of whatever burns. Trees burn down to the trunk, pawns and animals burn along their outline, and torches, stoves and fireplaces get their own flames. Realistic, simple or vanilla flame style in the mod settings.
 
-Snow: snow settles on trees, bushes, furniture and eaves, generated from each object's own graphic, so modded objects work without extra textures.
+Snow: snow settles on trees, bushes, furniture and eaves. It is generated from each object's own graphic, so modded objects work without extra textures.
 
-Weather: rain, snow, blizzards, fog and lightning drawn anew for RimWorld 1.7, including torrential, blood and toxic rain.</description>
+Weather: rain, snow, blizzards, fog and lightning are drawn anew, including torrential, blood and toxic rain. Rain and snow stop at roofs, eaves and doors. Optionally, weather is hidden under roofs and mountains.
+
+Shadows: trees, bushes, buildings, items, pawns and animals cast shadows that follow the sun. At night and in overcast, foggy or rainy weather, only torches and lamps cast shadows. Indoors no shadows are drawn. Each group can be turned off.
+
+Freezing water: in frost, lakes and shallow and deep water freeze from the shore. Ice can be walked on and removed with "Break ice". With Medieval Overhaul this yields ice blocks.</description>
 </ModMetaData>
