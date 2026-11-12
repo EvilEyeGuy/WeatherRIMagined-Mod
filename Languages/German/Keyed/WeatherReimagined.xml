@@ -4,6 +4,16 @@
   <WR_TabFire>Feuer</WR_TabFire>
   <WR_TabSnow>Schnee</WR_TabSnow>
   <WR_TabWeather>Wetter</WR_TabWeather>
+  <WR_TabCompat>Kompatibilität</WR_TabCompat>
+  <WR_CompatTitle>Wettereffekte, die auch andere Mods zeichnen</WR_CompatTitle>
+  <WR_CompatDesc>Aufgelistet sind die Wettereffekte, die auch ein aktiver Mod zeichnet. Standardmäßig wird beides gezeigt. Ohne Haken bei Weather Reimagined wird stattdessen das ursprüngliche Wetter des Spiels gezeichnet. Ohne Haken beim anderen Mod wird dessen Effekt bei diesem Wetter abgeschaltet.</WR_CompatDesc>
+  <WR_CompatNone>Kein aktiver Mod zeichnet dieselben Wettereffekte.</WR_CompatNone>
+  <WR_CompatOwn>Weather Reimagined</WR_CompatOwn>
+  <WR_CompatOther>{0}: {1}</WR_CompatOther>
+  <WR_CompatRainSplash>Regenspritzer</WR_CompatRainSplash>
+  <WR_CompatSnowflakes>Schneeflocken</WR_CompatSnowflakes>
+  <WR_CompatFogBanks>Nebelbänke</WR_CompatFogBanks>
+  <WR_CompatLightning>Blitzeffekte</WR_CompatLightning>
   <WR_Low>Niedrig</WR_Low>
   <WR_Medium>Mittel</WR_Medium>
   <WR_High>Hoch</WR_High>
