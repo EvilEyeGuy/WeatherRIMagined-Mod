@@ -65,7 +65,7 @@
   <WR_FogNote>Under RimWorld 1.7, vanilla shows nothing for fog and hazes. Switched off, no fog is visible there at all.</WR_FogNote>
   <WR_ResetTab>Reset to default</WR_ResetTab>
   <WR_Pregen>Pregenerate textures</WR_Pregen>
-  <WR_PregenDesc>Generates the snow for all plants and items now. Takes about a minute and keeps running when the window is closed. You can cancel at any time: missing textures are then created in game when they are needed.</WR_PregenDesc>
+  <WR_PregenDesc>Generates the snow and flames for all plants now. Takes about a minute and keeps running when the window is closed. You can cancel at any time: missing textures are then created in game when they are needed.</WR_PregenDesc>
   <WR_PregenProgress>{0} / {1}</WR_PregenProgress>
   <WR_PregenCancel>Cancel</WR_PregenCancel>
   <WR_StrengthDesc>The slider sets how dense the weather is drawn: 25 to 200 %. Above 100 % a second layer is added. Gameplay does not change.</WR_StrengthDesc>

@@ -65,7 +65,7 @@
   <WR_FogNote>Unter RimWorld 1.7 zeigt Vanilla bei Nebel und Schleiern nichts an. Ausgeschaltet ist dort also gar kein Nebel zu sehen.</WR_FogNote>
   <WR_ResetTab>Auf Standard zurücksetzen</WR_ResetTab>
   <WR_Pregen>Texturen vorab erzeugen</WR_Pregen>
-  <WR_PregenDesc>Erzeugt jetzt den Schnee für alle Pflanzen und Gegenstände. Dauert etwa eine Minute und läuft auch bei geschlossenem Fenster weiter. Abbrechen geht jederzeit: Fehlende Texturen entstehen dann im Spiel, sobald sie gebraucht werden.</WR_PregenDesc>
+  <WR_PregenDesc>Erzeugt jetzt Schnee und Flammen für alle Pflanzen. Dauert etwa eine Minute und läuft auch bei geschlossenem Fenster weiter. Abbrechen geht jederzeit: Fehlende Texturen entstehen dann im Spiel, sobald sie gebraucht werden.</WR_PregenDesc>
   <WR_PregenProgress>{0} / {1}</WR_PregenProgress>
   <WR_PregenCancel>Abbrechen</WR_PregenCancel>
   <WR_StrengthDesc>Der Regler stellt ein, wie dicht das Wetter gezeichnet wird: 25 bis 200 %. Über 100 % kommt eine zweite Lage dazu. Am Spiel ändert sich nichts.</WR_StrengthDesc>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<WeatherReimagined.RealtimeSnowListDef>
+		<defName>WR_RealtimeSnow</defName>
+		<defs>
+			<li>DankPyon_LampPost</li>
+		</defs>
+	</WeatherReimagined.RealtimeSnowListDef>
+
+</Defs>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<WeatherReimagined.FenceSnowListDef>
+		<defName>WR_FenceSnow</defName>
+		<fences>
+			<li>
+				<def>Fence</def>
+				<style>Fence</style>
+			</li>
+			<li>
+				<def>AncientFence</def>
+				<style>Fence</style>
+			</li>
+			<li>
+				<def>DankPyon_Palisade</def>
+				<style>Stakes</style>
+			</li>
+			<li>
+				<def>DankPyon_EmbPalisade</def>
+				<style>Stakes</style>
+			</li>
+		</fences>
+	</WeatherReimagined.FenceSnowListDef>
+
+</Defs>
