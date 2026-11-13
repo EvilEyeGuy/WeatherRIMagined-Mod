@@ -30,6 +30,39 @@
   </ShaderDef>
 
   <ShaderDef>
+    <defName>WR_ShadowSweepDepth</defName>
+    <shaderProgram>
+      <vertexShaderFileName>WR_SchattenZug.vert.glsl</vertexShaderFileName>
+      <fragmentShaderFileName>WR_SchattenZug.frag.glsl</fragmentShaderFileName>
+      <transparent>true</transparent>
+      <depthTest>true</depthTest>
+      <depthWrite>true</depthWrite>
+      <colorWrite>false</colorWrite>
+      <cullMode>None</cullMode>
+      <renderQueue>3143</renderQueue>
+    </shaderProgram>
+  </ShaderDef>
+
+  <ShaderDef>
+    <defName>WR_ShadowSweep</defName>
+    <shaderProgram>
+      <vertexShaderFileName>WR_SchattenZug.vert.glsl</vertexShaderFileName>
+      <fragmentShaderFileName>WR_SchattenZug.frag.glsl</fragmentShaderFileName>
+      <blendMode>MultiplyDestination</blendMode>
+      <depthTest>true</depthTest>
+      <depthWrite>false</depthWrite>
+      <cullMode>None</cullMode>
+      <stencilEnabled>true</stencilEnabled>
+      <stencilCompare>Greater</stencilCompare>
+      <stencilPassOp>Replace</stencilPassOp>
+      <stencilRef>4</stencilRef>
+      <stencilReadMask>12</stencilReadMask>
+      <stencilWriteMask>4</stencilWriteMask>
+      <renderQueue>3145</renderQueue>
+    </shaderProgram>
+  </ShaderDef>
+
+  <ShaderDef>
     <defName>WR_ShadowTorch</defName>
     <shaderProgram>
       <vertexShaderFileName>WR_Schatten.vert.glsl</vertexShaderFileName>
